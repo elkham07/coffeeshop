@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery | Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">☕ Coffee Shop</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="gallery-filters">
+        <button class="filter-btn" data-cat="all">All</button>
+        <button class="filter-btn" data-cat="espresso">Espresso</button>
+        <button class="filter-btn" data-cat="latte">Latte</button>
+        <button class="filter-btn" data-cat="dessert">Desserts</button>
+    </div>
+    
+    <div class="gallery-grid">
+        <img src="https://png.pngtree.com/background/20250104/original/pngtree-black-coffee-or-hot-tea-in-cappuccino-espresso-cup-picture-image_15567333.jpg" alt="Espresso" data-cat="espresso" loading="lazy">
+        <img src="https://png.pngtree.com/background/20250208/original/pngtree-coffee-lover-s-cappuccino-and-beans-picture-image_15772268.jpg" alt="Latte" data-cat="latte" loading="lazy">
+        <img src="https://png.pngtree.com/background/20250624/original/pngtree-a-slice-of-chocolate-cake-on-black-plate-with-coffee-in-picture-image_16267443.jpg" alt="Cake" data-cat="dessert" loading="lazy">
+        ...
+    </div>
+    
+
+    <main>
+        <section class="gallery">
+            <h1>Our Coffee Moments</h1>
+            <div class="gallery-grid">
+                <img src="https://images.fineartamerica.com/images-medium-large-5/empty-coffee-cup-and-saucer-wladimir-bulgarscience-photo-library.jpg" alt="Coffee cup" loading="lazy">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRspsk5NDIyWzMxEjWf7w-vCgBk7ShCIZzGRA&s" alt="Latte art" loading="lazy">
+                <img src="https://static.uwalls.com/products/96000/96119/u97432piz1_900.webp" alt="Cafe interior" loading="lazy">
+                <img src="https://filizhanka.com/images/news/news/neobychnye-retsepty-kofe-v-turke-big.webp" alt="Barista pouring" loading="lazy">
+                <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/2/coffee-beans-background-ozgurcankaya.jpg" alt="Coffee beans" loading="lazy">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFoMymy7DeSGryD6o3JLn2thE3LZl0rmd0RA&s" alt="Desserts and coffee" loading="lazy">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Coffee Shop | All Rights Reserved</p>
+        <div class="social">
+            <a href="#">Instagram</a> | 
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
